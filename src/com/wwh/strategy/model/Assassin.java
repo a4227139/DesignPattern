@@ -1,4 +1,4 @@
-package strategy.model;
+package com.wwh.strategy.model;
 
 public class Assassin extends Character{
 

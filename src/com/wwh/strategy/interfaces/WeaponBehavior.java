@@ -1,4 +1,4 @@
-package strategy.interfaces;
+package com.wwh.strategy.interfaces;
 
 public interface  WeaponBehavior {
 

@@ -1,10 +1,10 @@
-package strategy;
+package com.wwh.strategy;
 
-import strategy.impl.KnifeBehavior;
-import strategy.impl.WandBehavior;
-import strategy.interfaces.WeaponBehavior;
-import strategy.model.Assassin;
-import strategy.model.Wizard;
+import com.wwh.strategy.impl.KnifeBehavior;
+import com.wwh.strategy.impl.WandBehavior;
+import com.wwh.strategy.interfaces.WeaponBehavior;
+import com.wwh.strategy.model.Assassin;
+import com.wwh.strategy.model.Wizard;
 
 public class Main {
 	/*策略模式，定义算法族(行为)，分别封装起来，让它们之间可以相互替换，此模式让算法(行为)的变化独立于使用它们的用户。

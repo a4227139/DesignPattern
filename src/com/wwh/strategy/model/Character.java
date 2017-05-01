@@ -1,6 +1,6 @@
-package strategy.model;
+package com.wwh.strategy.model;
 
-import strategy.interfaces.WeaponBehavior;
+import com.wwh.strategy.interfaces.WeaponBehavior;
 
 public abstract class Character {
 

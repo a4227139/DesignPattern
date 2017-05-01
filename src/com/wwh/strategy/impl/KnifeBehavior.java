@@ -1,6 +1,6 @@
-package strategy.impl;
+package com.wwh.strategy.impl;
 
-import strategy.interfaces.WeaponBehavior;
+import com.wwh.strategy.interfaces.WeaponBehavior;
 
 public class KnifeBehavior implements WeaponBehavior{
 
