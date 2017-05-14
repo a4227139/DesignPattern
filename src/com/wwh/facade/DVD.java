@@ -1,4 +1,4 @@
-package com.wwh.command.remoteController.devices;
+package com.wwh.facade;
 
 public class DVD {
 
