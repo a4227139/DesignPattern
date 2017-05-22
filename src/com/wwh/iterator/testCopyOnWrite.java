@@ -19,6 +19,7 @@ public class testCopyOnWrite {
 		 * CopyOnWrite容器即写时复制的容器通俗的理解是当往一个容器添加元素的时候，不直接往当前容器添加，而是先将当前容器进行Copy，复制出一个新的容器，然后新的容器里添加/删除元素，
 		 * 添加/删除完元素之后，再将原容器的引用指向新的容器，每次修改结构都要复制，所以会造成很多的空间浪费，容易引起GC。而且该容器只能保证数据的最终一致性，不能保证数据的实时一致性。
 		 * CopyOnWrite容器是一种读写分离的思想，读和写不同的容器，好处是可以对CopyOnWrite容器进行并发的读，而不需要加锁，因为当前容器不会添加任何元素。
+		 * CopyOnWrite容器适用于读操作远远大于写操作的场景里。
 		 */
 		copyOnWriteArrayList=new CopyOnWriteArrayList<>(list);
 		for(Integer i:copyOnWriteArrayList){
